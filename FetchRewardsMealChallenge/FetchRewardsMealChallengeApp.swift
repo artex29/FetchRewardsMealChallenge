@@ -12,6 +12,7 @@ struct FetchRewardsMealChallengeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(ContentModel())
         }
     }
 }
